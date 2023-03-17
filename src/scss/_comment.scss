@@ -1,0 +1,86 @@
+.comment {
+  background: #FFFFFF;
+  border-radius: 10px;
+  position: relative;
+  max-width: 90%;
+  margin: 1em auto;
+}
+
+.comment-name {
+  font-size: 17px;
+  line-height: 1em;
+  font-weight: 700;
+  margin: 5px 0;
+  color: #2a5885;
+}
+
+.comment-text {
+  font-size: 17px;
+  line-height: 22px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.comment-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px 0;
+}
+
+.comment-date {
+  min-width: fit-content;
+  max-width: max-content;
+  font-size: 15px;
+  color: #9099a3;
+  line-height: 1em;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.comment__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comment__delete-button {
+  width: 18px;
+  height: 19px;
+  border: none;
+  background-image: url(./image/basket.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  display: block;
+  padding: 0;
+
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.comment__like-button {
+  width: 22px;
+  height: 19px;
+  border: none;
+  color: #000000;
+  background-image: url(./image/like.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  display: block;
+  padding: 0;
+  margin-left: 10px;
+
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.comment__like-button_active {
+  background-image: url(./image/like_active.svg);
+}

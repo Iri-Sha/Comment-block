@@ -1,0 +1,84 @@
+.form {
+  width: 90%;
+}
+
+.form__title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1B1A17;
+
+  @media screen and (max-width: 450px) {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+.form_comment {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 400;
+  margin: 0;
+  padding: 9px 5px;
+  //border: none;
+  border: 1px solid rgba(0,0,0,.2);
+
+  & .input_type_error {
+    border-bottom: 1px solid #FF0000;
+  }
+}
+
+.form__error {
+  color: #f00;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  margin: 1px;
+  display: block;
+  min-height: 15px;
+}
+
+.form__input_comment {
+  min-height: 102px;
+}
+
+.form__input_date {
+  font-weight: 400;
+  max-width: 188px;
+}
+
+.button_new-comment {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: #D4B098;
+  color: white;
+  padding: 0;
+  margin: 8px 0 37px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.button-disabled {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  opacity: .2;
+  cursor: auto;
+  pointer-events: none;
+}

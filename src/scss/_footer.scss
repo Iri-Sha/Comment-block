@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.footer__copyright {
+  width: 90%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 auto;
+}

@@ -1,0 +1,18 @@
+header {
+  width: 100%;
+}
+
+.header__title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1B1A17;
+  text-align: center;
+
+  @media screen and (max-width: 450px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
